@@ -42,7 +42,7 @@ class Program
             Console.WriteLine("3 - Об авторе");
             Console.WriteLine("4 - Выход");
 
-            Console.Write("пункт меню: ");
+            Console.WriteLine("пункт меню: ");
             string input = Console.ReadLine();
             int choice = Convert.ToInt32(input);
             
